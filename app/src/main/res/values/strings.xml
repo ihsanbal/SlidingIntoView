@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SlidingIntoView</string>
+
+    <string-array name="titles">
+        <item>İstanbul</item>
+        <item>Rize</item>
+        <item>Diyarbekir</item>
+        <item>İzmir</item>
+    </string-array>
+
+    <string-array name="texts">
+        <item>İstanbul, Türkiye\'de yer alan şehir ve ülkenin 81 ilinden biri. Ülkenin en kalabalık, ekonomik ve sosyo-kültürel açıdan en önemli şehridir.</item>
+        <item>Rize, Karadeniz Bölgesi\'nin Doğu Karadeniz bölümünde yer alan bir şehirdir. Doğuda Çayeli ve Güneysu ile, güneyde İkizdere, batıda Derepazarı ve Kalkandere, kuzeyde Karadeniz ile çevrilidir.</item>
+        <item>Diyarbakır, Türkiye\'nin bir ili ve en kalabalık on ikinci şehri. TÜİK ADNKS verilerine göre 2014 itibarıyla 1.635.048 nüfusa sahiptir. Diyarbakır kent merkezi yaklaşık 9000 yıllık bir geçmişe sahiptir. </item>
+        <item>İzmir, Türkiye\'nin bir ili ve en kalabalık üçüncü şehri. Anadolu Yarımadası\'nın batısında, Ege Bölgesi\'nin ortasında yer alan ve İzmir Körfezi çevresinde bulunan şehir, her yıl İzmir ...</item>
+    </string-array>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ihsanbal.io.MainActivity">
+
+    <com.ihsanbal.introview.IntroView
+        android:id="@+id/intro.view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:paddingTextLeft="14dp"
+        app:paddingTextRight="14dp"
+        app:paddingTitleLeft="14dp"
+        app:paddingTitleRight="14dp"
+        app:paddingTitleTop="30dp"
+        app:scaleType="center"
+        app:scrollDelay="5000"
+        app:scrollDuration="5"
+        app:textColor="#fc2f2f"
+        app:textSize="7sp"
+        app:titleTextColor="#ffffff"
+        app:titleTextSize="13sp" />
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/circle.indicator"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="7dp"
+        android:keepScreenOn="true" />
+
+</FrameLayout>

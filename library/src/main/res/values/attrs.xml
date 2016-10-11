@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IntroView">
+        <attr name="scrollDuration" format="integer" />
+        <attr name="scrollDelay" format="integer" />
+        <attr name="paddingTitleTop" format="dimension" />
+        <attr name="paddingTitleBottom" format="dimension" />
+        <attr name="paddingTitleLeft" format="dimension" />
+        <attr name="paddingTitleRight" format="dimension" />
+        <attr name="paddingTextTop" format="dimension" />
+        <attr name="paddingTextBottom" format="dimension" />
+        <attr name="paddingTextLeft" format="dimension" />
+        <attr name="paddingTextRight" format="dimension" />
+        <attr name="titleTextColor" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="textSize" format="dimension" />
+        <attr name="scaleType" format="enum">
+            <enum name="center" value="0" />
+            <enum name="centerCrop" value="1" />
+            <enum name="centerInside" value="2" />
+            <enum name="fitCenter" value="3" />
+            <enum name="fitEnd" value="4" />
+            <enum name="fitStart" value="5" />
+            <enum name="fitXY" value="6" />
+            <enum name="matrix" value="7" />
+        </attr>
+    </declare-styleable>
+</resources>
