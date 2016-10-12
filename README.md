@@ -1,5 +1,5 @@
 SlidingIntoView 
-[![API](https://img.shields.io/badge/API-11%2B-brightgreen.svg?style=flat-square)](https://android-arsenal.com/api?level=9) [![License](https://img.shields.io/npm/l/express.svg?style=flat-square)](https://github.com/ihsanbal/StreetView/blob/master/LICENSE)
+[![API](https://img.shields.io/badge/API-11%2B-brightgreen.svg?style=flat-square)](https://android-arsenal.com/api?level=9)[![License](https://img.shields.io/npm/l/express.svg?style=flat-square)](https://github.com/ihsanbal/StreetView/blob/master/LICENSE)[![Jitpack](https://jitpack.io/v/ihsanbal/SlidingIntoView.svg?style=flat-square)](https://jitpack.io/#ihsanbal/SlidingIntoView)
 ================
 
 Simple Sliding Intro View
