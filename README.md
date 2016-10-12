@@ -1,9 +1,10 @@
-SlidingIntoView [![API](https://img.shields.io/badge/API-9%2B-brightgreen.svg?style=flat-square)](https://android-arsenal.com/api?level=9)
+SlidingIntoView 
+[![API](https://img.shields.io/badge/API-11%2B-brightgreen.svg?style=flat-square)](https://android-arsenal.com/api?level=9)[![License](https://img.shields.io/npm/l/express.svg?style=flat-square)](https://opensource.org/licenses/MIT)[![Jitpack](https://jitpack.io/v/ihsanbal/SlidingIntoView.svg?style=flat-square)](https://jitpack.io/#ihsanbal/SlidingIntoView)
 ================
 
 Simple Sliding Intro View
 
-![Illustration of behavior](https://github.com/fafaldo/BlurZoomGallery/blob/master/blurzoomgallery.gif "Illustration of behavior")
+![Illustration of behavior](https://github.com/ihsanbal/SlidingIntoView/blob/master/device-2016-10-12-125715.gif "Illustration of behavior")
 
 
 How to use
@@ -31,8 +32,8 @@ or Maven:
 
 <dependency>
 	    <groupId>com.github.ihsanbal</groupId>
-	    <artifactId>StreetView</artifactId>
-	    <version>2.0.0</version>
+	    <artifactId>SlidingIntoView</artifactId>
+	    <version>1.0.0</version>
 </dependency>
 ```
 
@@ -108,7 +109,6 @@ License
 ----
 
 Library for Android
-[![License](https://img.shields.io/npm/l/express.svg?style=flat-square)](https://github.com/ihsanbal/StreetView/blob/master/LICENSE)
 
 Copyright (c) 2015 İhsan BAL
 
