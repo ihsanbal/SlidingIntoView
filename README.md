@@ -4,7 +4,7 @@ SlidingIntoView
 
 Simple Sliding Intro View
 
-![Illustration of behavior](https://github.com/fafaldo/BlurZoomGallery/blob/master/blurzoomgallery.gif "Illustration of behavior")
+![Illustration of behavior](https://github.com/ihsanbal/SlidingIntoView/blob/master/device-2016-10-12-125715.gif "Illustration of behavior")
 
 
 How to use
