@@ -33,14 +33,14 @@ public class AdapterPageSection extends FragmentPagerAdapter {
     }
 
     private String getTitleResource(int i) {
-        if (titleResources == null || titleResources.length < i)
+        if (titleResources == null || titleResources.length < i + 1)
             return "";
         else
             return titleResources[i];
     }
 
     private String getTextResource(int i) {
-        if (textResource == null || textResource.length < i)
+        if (textResource == null || textResource.length < i + 1)
             return "";
         else
             return textResource[i];

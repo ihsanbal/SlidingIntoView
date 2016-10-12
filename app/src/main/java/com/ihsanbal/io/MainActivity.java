@@ -21,10 +21,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+        mIntroView.setOffscreenPageLimit(2);
         mIntroView.init(getSupportFragmentManager(),
                 getResources().getStringArray(R.array.titles),
                 getResources().getStringArray(R.array.texts),
-                R.drawable.istanbul_wp, R.drawable.rize_wp, R.drawable.diyarbekir_wp, R.drawable.izmir_wp);
+                R.drawable.istanbul_wp, R.drawable.rize_wp, R.drawable.diyarbekir_wp, R.drawable.izmir_wp, R.drawable.izmir_wp, R.drawable.izmir_wp, R.drawable.izmir_wp);
         mCircleIndicator.setViewPager(mIntroView);
     }
 }
