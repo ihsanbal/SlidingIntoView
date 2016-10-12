@@ -1,4 +1,5 @@
-SlidingIntoView [![API](https://img.shields.io/badge/API-9%2B-brightgreen.svg?style=flat-square)](https://android-arsenal.com/api?level=9)
+SlidingIntoView 
+[![API](https://img.shields.io/badge/API-11%2B-brightgreen.svg?style=flat-square)](https://android-arsenal.com/api?level=9) [![License](https://img.shields.io/npm/l/express.svg?style=flat-square)](https://github.com/ihsanbal/StreetView/blob/master/LICENSE)
 ================
 
 Simple Sliding Intro View
@@ -31,8 +32,8 @@ or Maven:
 
 <dependency>
 	    <groupId>com.github.ihsanbal</groupId>
-	    <artifactId>StreetView</artifactId>
-	    <version>2.0.0</version>
+	    <artifactId>SlidingIntoView</artifactId>
+	    <version>1.0.0</version>
 </dependency>
 ```
 
@@ -108,7 +109,6 @@ License
 ----
 
 Library for Android
-[![License](https://img.shields.io/npm/l/express.svg?style=flat-square)](https://github.com/ihsanbal/StreetView/blob/master/LICENSE)
 
 Copyright (c) 2015 İhsan BAL
 
