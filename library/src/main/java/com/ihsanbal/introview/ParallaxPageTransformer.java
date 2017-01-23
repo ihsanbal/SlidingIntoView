@@ -7,22 +7,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by ihsan BAL on 23/05/16.
+ * @author ihsan BAL on 23/05/16.
  */
 
-public class ParallaxPageTransformer implements ViewPager.PageTransformer {
+class ParallaxPageTransformer implements ViewPager.PageTransformer {
 
     private List<ParallaxTransformInformation> mViewsToParallax
-            = new ArrayList<ParallaxTransformInformation>();
+            = new ArrayList<>();
 
-    public ParallaxPageTransformer() {
+    ParallaxPageTransformer() {
     }
 
-    public ParallaxPageTransformer(List<ParallaxTransformInformation> viewsToParallax) {
-        mViewsToParallax = viewsToParallax;
-    }
-
-    public ParallaxPageTransformer addViewToParallax(
+    ParallaxPageTransformer addViewToParallax(
             ParallaxTransformInformation viewInfo) {
         if (mViewsToParallax != null) {
             mViewsToParallax.add(viewInfo);
@@ -70,30 +66,30 @@ public class ParallaxPageTransformer implements ViewPager.PageTransformer {
      * ParallaxEffect negative values increase the speed of the view in the translation
      * Try values to see the different effects. I recommend 2, 0.75 and 0.5
      */
-    public static class ParallaxTransformInformation {
+    static class ParallaxTransformInformation {
 
-        public static final float PARALLAX_EFFECT_DEFAULT = -101.1986f;
+        static final float PARALLAX_EFFECT_DEFAULT = -101.1986f;
 
         int resource = -1;
         float parallaxEnterEffect = 1f;
         float parallaxExitEffect = 1f;
 
-        public ParallaxTransformInformation(int resource, float parallaxEnterEffect,
-                                            float parallaxExitEffect) {
+        ParallaxTransformInformation(int resource, float parallaxEnterEffect,
+                                     float parallaxExitEffect) {
             this.resource = resource;
             this.parallaxEnterEffect = parallaxEnterEffect;
             this.parallaxExitEffect = parallaxExitEffect;
         }
 
-        public boolean isValid() {
+        boolean isValid() {
             return parallaxEnterEffect != 0 && parallaxExitEffect != 0 && resource != -1;
         }
 
-        public boolean isEnterDefault() {
+        boolean isEnterDefault() {
             return parallaxEnterEffect == PARALLAX_EFFECT_DEFAULT;
         }
 
-        public boolean isExitDefault() {
+        boolean isExitDefault() {
             return parallaxExitEffect == PARALLAX_EFFECT_DEFAULT;
         }
     }

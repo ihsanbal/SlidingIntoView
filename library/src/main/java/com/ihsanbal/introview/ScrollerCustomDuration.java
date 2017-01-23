@@ -1,35 +1,25 @@
 package com.ihsanbal.introview;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.animation.Interpolator;
 import android.widget.Scroller;
 
 /**
- * Created by ihsan on 10/10/16.
+ * @author ihsan on 10/10/16.
  */
 
-public class ScrollerCustomDuration extends Scroller {
+class ScrollerCustomDuration extends Scroller {
 
     private double mScrollFactor = 1;
 
-    public ScrollerCustomDuration(Context context) {
-        super(context);
-    }
-
-    public ScrollerCustomDuration(Context context, Interpolator interpolator) {
+    ScrollerCustomDuration(Context context, Interpolator interpolator) {
         super(context, interpolator);
-    }
-
-    @SuppressLint("NewApi")
-    public ScrollerCustomDuration(Context context, Interpolator interpolator, boolean flywheel) {
-        super(context, interpolator, flywheel);
     }
 
     /**
      * Set the factor by which the duration will change
      */
-    public void setScrollDurationFactor(double scrollFactor) {
+    void setScrollDurationFactor(double scrollFactor) {
         mScrollFactor = scrollFactor;
     }
 

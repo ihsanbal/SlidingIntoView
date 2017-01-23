@@ -6,16 +6,16 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 /**
- * Created by ihsan on 10/10/16.
+ * @author ihsan on 10/10/16.
  */
 
-public class AdapterPageSection extends FragmentPagerAdapter {
+class AdapterPageSection extends FragmentPagerAdapter {
 
     private final Bundle bundle;
     private int[] resourcesId;
     private String[] titleResources, textResource;
 
-    public AdapterPageSection(FragmentManager fm, Bundle bundle, String[] titleResources, String[] textResources, int[] resourcesId) {
+    AdapterPageSection(FragmentManager fm, Bundle bundle, String[] titleResources, String[] textResources, int[] resourcesId) {
         super(fm);
         this.resourcesId = resourcesId;
         this.titleResources = titleResources;

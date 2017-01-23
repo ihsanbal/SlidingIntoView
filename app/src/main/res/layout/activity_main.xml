@@ -19,9 +19,8 @@
         app:scaleType="center"
         app:scrollDelay="5000"
         app:scrollDuration="5"
-        app:textColor="#fc2f2f"
         app:textSize="7sp"
-        app:titleTextColor="#ffffff"
+        app:titleTextColor="@color/colorAccent"
         app:titleTextSize="13sp" />
 
     <me.relex.circleindicator.CircleIndicator
